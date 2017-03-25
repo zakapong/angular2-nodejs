@@ -4,3 +4,9 @@ nodemon
 C:\Program Files\MongoDB\Server\3.4\bin>mongod.exe --dbpath /Users/rd-zma/mongo-data
 
 npm install --save mongoose-unique-validator
+
+#add 'node_modules' to .gitignore file
+
+git rm -r --cached node_modules
+git commit -m 'Remove the now ignored directory node_modules'
+git push origin master
